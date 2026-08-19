@@ -23,7 +23,7 @@ export function AppShell({ children }: { children: ReactNode }) {
               <Link
                 to={to}
                 activeOptions={{ exact: to === "/" }}
-                className="flex flex-col items-center gap-1 py-3 text-[11px] font-medium text-muted-foreground transition-colors data-[status=active]:text-primary"
+                className="flex flex-col items-center gap-1 py-3 text-[11px] font-semibold text-muted-foreground transition-colors data-[status=active]:text-primary"
               >
                 <Icon className="h-5 w-5" aria-hidden="true" />
                 {label}
